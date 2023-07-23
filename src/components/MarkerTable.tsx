@@ -299,6 +299,7 @@ const MarkerDialog: React.FC<{open: boolean, onOpen: Function, onClose: Function
                         autoFocus
                         margin="dense"
                         id="type"
+                        value={type}
                         onChange={(event)=>setType(event.target.value)}
                         label="type"
                         fullWidth
